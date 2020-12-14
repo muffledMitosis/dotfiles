@@ -1,2 +1,3 @@
 xinput set-prop "SYNA3064:00 06CB:8265 Touchpad" "libinput Tapping Enabled" 1
 xinput set-prop "SYNA3064:00 06CB:8265 Touchpad" "libinput Disable While Typing Enabled" 0
+xsetwacom --set "Wacom Bamboo Connect Pen stylus" Rotate half
