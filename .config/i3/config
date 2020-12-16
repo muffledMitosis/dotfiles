@@ -186,11 +186,32 @@ bindsym $mod+r mode "resize"
 # finds out, if available)
 bar {
 	position top
-        status_command i3status
+	status_command i3status
+	colors {
+		background #2f343f
+		statusline #2f343f
+		separator #4b5262
+
+		# colour of border, background, and text
+		focused_workspace       #2f343f #bf616a #d8dee8
+		active_workspace        #2f343f #2f343f #d8dee8
+		inactive_workspace      #2f343f #2f343f #d8dee8
+		urgent_workspacei       #2f343f #ebcb8b #2f343f
+	}
 }
 
+# colour of border, background, text, indicator, and child_border
+client.focused              #bf616a #2f343f #d8dee8 #bf616a #d8dee8
+client.focused_inactive     #2f343f #2f343f #d8dee8 #2f343f #2f343f
+client.unfocused            #2f343f #2f343f #d8dee8 #2f343f #2f343f
+client.urgent               #2f343f #2f343f #d8dee8 #2f343f #2f343f
+client.placeholder          #2f343f #2f343f #d8dee8 #2f343f #2f343f
+client.background           #2f343f
+
 # Key bind for Alsa sound
-bindsym XF86AudioRaiseVolume exec amixer -q sset Master 5%+ unmute
-bindsym XF86AudioLowerVolume  exec amixer -q sset Master 5%- unmute
-bindsym XF86AudioMute exec amixer -q sset Master toggle
+# bindsym XF86AudioRaiseVolume exec amixer -q sset Master 5%+ unmute
+# bindsym XF86AudioLowerVolume  exec amixer -q sset Master 5%- unmute
+# bindsym XF86AudioMute exec amixer -q sset Master toggle
+
+exec --no-startup-id feh --bg-fill /home/meth/.config/i3/bg.png
 

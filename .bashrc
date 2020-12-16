@@ -13,6 +13,7 @@ export PATH="/home/meth/.local/bin:"$PATH
 export PATH="$PATH:$HOME/.rvm/bin"
 export PATH="$PATH:/home/meth/.gem/ruby/2.7.0/bin"
 alias msfconsole="msfconsole -x \"db_connect ${USER}@msf\""
+export PATH="$PATH:/opt/resolve/bin/"
 
 
 # Eternal bash history.
