@@ -15,7 +15,7 @@ order += "disk /home"
 order += "ethernet enp2s0"
 order += "wireless wlp3s0"
 order += "volume master"
-order += "battery 1"
+order += "battery 0"
 order += "tztime local"
 
 load {
@@ -53,7 +53,7 @@ volume master {
         mixer_idx = 0
 }
 
-battery 1 {
+battery 0 {
 	last_full_capacity = true
         format = "<span background='#a3be8c'>  %status %percentage </span>"
         format_down = "No Battery"
