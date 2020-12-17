@@ -22,6 +22,8 @@ Plugin 'octol/vim-cpp-enhanced-highlight'
 Plugin 'c.vim'
 Plugin 'altercation/vim-colors-solarized'
 Plugin 'morhetz/gruvbox'
+Plugin 'ryanoasis/vim-devicons'
+Plugin 'tiagofumo/vim-nerdtree-syntax-highlight'
 Plugin 'ycm-core/YouCompleteMe'
 
 " All of your Plugins must be added before the following line
