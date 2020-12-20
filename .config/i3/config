@@ -214,5 +214,5 @@ client.background           #2f343f
 # bindsym XF86AudioMute exec amixer -q sset Master toggle
 
 exec --no-startup-id feh --bg-fill /home/meth/.config/i3/bg.png
-exec --no-startup-id picom --no-fading-openclose
+exec --no-startup-id picom --config /home/meth/.config/picom/config
 exec --no-startup-id lightscreen
