@@ -15,6 +15,7 @@ export PATH="$PATH:/home/meth/.gem/ruby/2.7.0/bin"
 alias msfconsole="msfconsole -x \"db_connect ${USER}@msf\""
 export PATH="$PATH:/opt/resolve/bin/"
 
+neofetch
 
 # Eternal bash history.
 # ---------------------
