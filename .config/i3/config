@@ -58,7 +58,8 @@ bindsym $mod+Shift+q kill
 bindsym $mod+d exec --no-startup-id rofi -show run
 
 # Rofi open windows
-bindsym $mod+m exec --no-startup-id rofi -show window
+# bindsym $mod+m exec --no-startup-id rofi -show window
+bindsym $mod+m move workspace to output right
 
 
 # change focus
@@ -216,3 +217,5 @@ client.background           #2f343f
 exec --no-startup-id feh --bg-fill /home/meth/.config/i3/bg.png
 exec --no-startup-id picom --config /home/meth/.config/picom/config
 exec --no-startup-id lightscreen
+
+bindsym $mod+Shift+m exec rofimoji --copy-only 
